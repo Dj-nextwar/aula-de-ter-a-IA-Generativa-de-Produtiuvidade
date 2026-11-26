@@ -1,55 +1,139 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-bs-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo - Djalma </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IA na Produtividade | Introdução</title>
+<link href="https://jsdelivr.net" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Nome Sobrenome</h1>
-        <p>Profissão Desenvolvedor Web)</p>
-        <p>E-mail: seu.email@exemplo.com | Telefone: (11) 99999-9999</p>
-        <p>Local: São Paulo, SP | <a href="https://linkedin.com" target="_blank">LinkedIn</a></p>
-    </header>
-
-    <main>
-        <section>
-            <h2>Resumo Profissional</h2>
-            <p>Profissional dedicado com experiência em estruturação de projetos, focado em entregar soluções eficientes e aprender novas tecnologias rapidamente.</p>
-        </section>
-
-        <section>
-            <h2>Experiência Profissional</h2>
-            <article>
-                <h3>Nome da Empresa</h3>
-                <p><strong>Cargo:</strong> Assistente de Projetos</p>
-                <p><em>Janeiro de 2023 – Presente</em></p>
-                <ul>
-                    <li>Responsável pela organização de dados e atendimento ao cliente.</li>
-                    <li>Melhoria nos processos internos da equipe.</li>
-                </ul>
-            </article>
-        </section>
-
-        <section>
-            <h2>Formação Acadêmica</h2>
-            <p><strong>Graduação em Exemplo</strong> Etec Fernando Prestes<br>
-            <em>Conclusão em 2027</em></p>
-        </section>
-
-        <section>
-            <h2>Habilidades</h2>
-            <ul>
-                <li>HTML5 e Estrutura Web</li>
-                <li>Organização e Gestão de Tempo</li>
-                <li>Comunicação Eficiente</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; Djalma</p>
-    </footer>
+<header>
+<nav class="navbar navbar-expand-lg border-bottom sticky-top bg-body-tertiary">
+<div class="container">
+<a class="navbar-brand fw-bold" href="index.html">⚡ IA Produtividade</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="menuNav">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item"><a class="nav-link active" href="index.html">Introdução</a></li>
+<li class="nav-item"><a class="nav-link" href="ferramentas.html">Ferramentas</a></li>
+<li class="nav-item"><a class="nav-link" href="praticas.html">Boas Práticas</a></li>
+<li class="nav-item"><a class="nav-link" href="questionario.html">Questionário</a></li>
+</ul>
+<button id="btnTema" class="btn btn-outline-primary btn-sm">🌙 Tema Escuro</button>
+</div>
+</div>
+</nav>
+</header>
+ 
+  <main class="container my-5">
+<section class="row align-items-center mb-5">
+<div class="col-lg-7">
+<span class="badge bg-primary mb-2">IA Generativa no Trabalho e Estudos</span>
+<h1 class="display-5 fw-bold mb-3">Aplicativos com IA Generativa para Produtividade</h1>
+<p class="lead">A Inteligência Artificial Generativa atua como um copiloto digital capaz de criar textos, resumir reuniões, organizar planilhas e automatizar rotinas repetitivas em segundos.</p>
+</div>
+<div class="col-lg-5 text-center">
+<img src="https://unsplash.com" alt="Ilustração de Inteligência Artificial e Produtividade" class="img-fluid rounded shadow">
+</div>
+</section>
+ 
+    <section class="mb-5">
+<h2 class="h3 border-bottom pb-2 mb-3">Breve Histórico</h2>
+<div class="row g-3">
+<div class="col-md-4">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title text-primary">2017 – Arquitetura Transformer</h5>
+<p class="card-text">Pesquisadores do Google publicam o artigo <em>"Attention Is All You Need"</em>, criando a base dos modelos modernos de linguagem.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title text-primary">2022 – Popularização</h5>
+<p class="card-text">O lançamento do ChatGPT democratiza o acesso à IA conversacional, atingindo 100 milhões de usuários em dois meses.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title text-primary">2023–Atual – Copilotos Integrados</h5>
+<p class="card-text">A IA passa a ser embarcada diretamente em suítes de escritório (Microsoft 365, Google Workspace, Notion).</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+ 
+    <section class="mb-5">
+<h2 class="h3 border-bottom pb-2 mb-3">Aplicações Práticas</h2>
+<div class="row g-4">
+<div class="col-md-4">
+<div class="p-3 border rounded h-100">
+<h5>📝 Comunicação e Redação</h5>
+<p class="mb-0">Elaboração de e-mails profissionais, relatórios técnicos, atas de reunião e traduções contextualizadas.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="p-3 border rounded h-100">
+<h5>📊 Análise e Organização</h5>
+<p class="mb-0">Geração de fórmulas no Excel, resumo de PDFs extensos e estruturação de cronogramas de projetos.</p>
+</div>
+</div>
+<div class="col-md-4">
+<div class="p-3 border rounded h-100">
+<h5>🎨 Criação de Apresentações</h5>
+<p class="mb-0">Transformação de tópicos em slides estruturados e geração de roteiros visuais em minutos.</p>
+</div>
+</div>
+</div>
+</section>
+ 
+    <section class="row g-4 mb-5">
+<div class="col-md-6">
+<div class="card border-success h-100">
+<div class="card-header bg-success text-white fw-bold">✔ Vantagens</div>
+<ul class="list-group list-group-flush">
+<li class="list-group-item">Redução drástica do tempo em tarefas operacionais.</li>
+<li class="list-group-item">Superação do bloqueio criativo (brainstorming rápido).</li>
+<li class="list-group-item">Disponibilidade 24/7 como assistente multidisciplinar.</li>
+</ul>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card border-danger h-100">
+<div class="card-header bg-danger text-white fw-bold">✖ Limitações</div>
+<ul class="list-group list-group-flush">
+<li class="list-group-item">Risco de "alucinações" (invenção de fatos ou dados).</li>
+<li class="list-group-item">Preocupações com privacidade de dados corporativos.</li>
+<li class="list-group-item">Dependência da qualidade do comando (prompt) fornecido.</li>
+</ul>
+</div>
+</div>
+</section>
+ 
+    <section class="bg-body-tertiary p-4 rounded">
+<h3 class="h5">Referências Utilizadas</h3>
+<ul class="small mb-0">
+<li>VASWANI, A. et al. <em>Attention Is All You Need</em>. Advances in Neural Information Processing Systems, 2017.</li>
+<li>OPENAI. <em>ChatGPT & Enterprise Productivity Documentation</em>. Disponível em: https://openai.com</li>
+<li>MICROSOFT. <em>Work Trend Index: Will AI Fix Work?</em>. Disponível em: https://microsoft.com</li>
+</ul>
+</section>
+</main>
+ 
+  <footer class="border-top py-4 text-center text-muted">
+<div class="container">
+<p class="mb-0">Projeto Acadêmico – Desenvolvimento Web | Tema: IA Generativa para Produtividade</p>
+</div>
+</footer>
+ 
+  <script src="https://jsdelivr.net"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
