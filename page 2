@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IA na Produtividade | Ferramentas</title>
+<link href="https://jsdelivr.net" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg border-bottom sticky-top bg-body-tertiary">
+<div class="container">
+<a class="navbar-brand fw-bold" href="index.html">⚡ IA Produtividade</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="menuNav">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item"><a class="nav-link" href="index.html">Introdução</a></li>
+<li class="nav-item"><a class="nav-link active" href="ferramentas.html">Ferramentas</a></li>
+<li class="nav-item"><a class="nav-link" href="praticas.html">Boas Práticas</a></li>
+<li class="nav-item"><a class="nav-link" href="questionario.html">Questionário</a></li>
+</ul>
+<button id="btnTema" class="btn btn-outline-primary btn-sm">🌙 Tema Escuro</button>
+</div>
+</div>
+</nav>
+</header>
+ 
+  <main class="container my-5">
+<h1 class="fw-bold mb-2">Ferramentas de IA para Produtividade</h1>
+<p class="lead mb-4">Comparativo entre opções gratuitas e soluções pagas disponíveis no mercado.</p>
+ 
+    <div class="table-responsive mb-5">
+<table class="table table-bordered table-hover align-middle">
+<thead class="table-primary">
+<tr>
+<th>Ferramenta</th>
+<th class="text-center">Plano Gratuito</th>
+<th class="text-center">Plano Pago</th>
+<th>Finalidade Principal</th>
+<th>Site Oficial</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="fw-bold">ChatGPT (OpenAI)</td>
+<td class="text-center">✔</td>
+<td class="text-center">✔</td>
+<td>Assistente geral, redação, código e análise de arquivos.</td>
+<td><a href="https://chatgpt.com" target="_blank" rel="noopener">chatgpt.com</a></td>
+</tr>
+<tr>
+<td class="fw-bold">Google Gemini</td>
+<td class="text-center">✔</td>
+<td class="text-center">✔</td>
+<td>Pesquisa integrada e produtividade no Google Workspace.</td>
+<td><a href="https://google.com" target="_blank" rel="noopener">://google.com</a></td>
+</tr>
+<tr>
+<td class="fw-bold">Claude (Anthropic)</td>
+<td class="text-center">✔</td>
+<td class="text-center">✔</td>
+<td>Leitura de documentos longos e escrita natural.</td>
+<td><a href="https://claude.ai" target="_blank" rel="noopener">claude.ai</a></td>
+</tr>
+<tr>
+<td class="fw-bold">Perplexity AI</td>
+<td class="text-center">✔</td>
+<td class="text-center">✔</td>
+<td>Mecanismo de busca com respostas citando fontes reais.</td>
+<td><a href="https://perplexity.ai" target="_blank" rel="noopener">perplexity.ai</a></td>
+</tr>
+<tr>
+<td class="fw-bold">Gamma App</td>
+<td class="text-center">✔</td>
+<td class="text-center">✔</td>
+<td>Criação automática de apresentações e slides.</td>
+<td><a href="https://gamma.app" target="_blank" rel="noopener">gamma.app</a></td>
+</tr>
+<tr>
+<td class="fw-bold">Microsoft 365 Copilot</td>
+<td class="text-center">✖ (Corporativo)</td>
+<td class="text-center">✔</td>
+<td>IA nativa dentro do Word, Excel, PowerPoint e Teams.</td>
+<td><a href="https://microsoft.com" target="_blank" rel="noopener">://microsoft.com</a></td>
+</tr>
+<tr>
+<td class="fw-bold">Notion AI</td>
+<td class="text-center">✖ (Teste limitado)</td>
+<td class="text-center">✔</td>
+<td>Gestão de conhecimento, wikis e resumos de tarefas.</td>
+<td><a href="https://notion.so" target="_blank" rel="noopener">notion.so</a></td>
+</tr>
+<tr>
+<td class="fw-bold">Otter.ai</td>
+<td class="text-center">✔ (Limitado)</td>
+<td class="text-center">✔</td>
+<td>Transcrição automática de reuniões em áudio e vídeo.</td>
+<td><a href="https://otter.ai" target="_blank" rel="noopener">otter.ai</a></td>
+</tr>
+<tr>
+<td class="fw-bold">Jasper AI</td>
+<td class="text-center">✖</td>
+<td class="text-center">✔</td>
+<td>Criação de conteúdo de marketing e copywriting em escala.</td>
+<td><a href="https://jasper.ai" target="_blank" rel="noopener">jasper.ai</a></td>
+</tr>
+<tr>
+<td class="fw-bold">Motion</td>
+<td class="text-center">✖</td>
+<td class="text-center">✔</td>
+<td>Agendamento automático de calendário e priorização de tarefas.</td>
+<td><a href="https://usemotion.com" target="_blank" rel="noopener">usemotion.com</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+ 
+    <h2 class="h3 mb-4">Detalhamento Técnico das Ferramentas</h2>
+<div class="row g-4">
+<div class="col-md-6">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">1. ChatGPT (Gratuito / Plus)</h5>
+<p><strong>Recursos:</strong> Geração de texto, análise de planilhas, criação de gráficos e modo de voz.</p>
+<p><strong>Vantagens:</strong> Versatilidade e grande ecossistema de GPTs personalizados.</p>
+<p class="mb-0"><strong>Limitações:</strong> Limite de mensagens nos modelos avançados na versão gratuita.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">2. Google Gemini (Gratuito / Advanced)</h5>
+<p><strong>Recursos:</strong> Acesso em tempo real à busca do Google e leitura de arquivos no Google Drive.</p>
+<p><strong>Vantagens:</strong> Integração nativa com Gmail e Google Docs.</p>
+<p class="mb-0"><strong>Limitações:</strong> Recursos dentro do Workspace exigem assinatura paga.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">3. Claude (Gratuito / Pro)</h5>
+<p><strong>Recursos:</strong> Janela de contexto extensa para analisar livros e códigos inteiros.</p>
+<p><strong>Vantagens:</strong> Escrita menos robótica e excelente capacidade de síntese.</p>
+<p class="mb-0"><strong>Limitações:</strong> Não gera imagens nativamente.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">4. Perplexity AI (Gratuito / Pro)</h5>
+<p><strong>Recursos:</strong> Pesquisa acadêmica e web com links diretos para as fontes originais.</p>
+<p><strong>Vantagens:</strong> Reduz drasticamente o risco de informações inventadas.</p>
+<p class="mb-0"><strong>Limitações:</strong> Menos focado em escrita criativa longa.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">5. Gamma App (Gratuito / Plus)</h5>
+<p><strong>Recursos:</strong> Gera apresentações completas, sites e documentos a partir de um tópico.</p>
+<p><strong>Vantagens:</strong> Design moderno pronto em segundos, exportável para PPTX e PDF.</p>
+<p class="mb-0"><strong>Limitações:</strong> Sistema baseado em créditos na conta gratuita.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">6. Microsoft 365 Copilot (Pago)</h5>
+<p><strong>Recursos:</strong> Cria tabelas dinâmicas no Excel, resume reuniões no Teams e redige no Word.</p>
+<p><strong>Vantagens:</strong> Segurança corporativa e uso direto nas ferramentas de trabalho.</p>
+<p class="mb-0"><strong>Limitações:</strong> Custo elevado e exige licença empresarial do Microsoft 365.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">7. Notion AI (Pago)</h5>
+<p><strong>Recursos:</strong> Extrai itens de ação de notas, traduz páginas e responde perguntas sobre sua base.</p>
+<p><strong>Vantagens:</strong> Centraliza anotações e gestão de projetos em um só lugar.</p>
+<p class="mb-0"><strong>Limitações:</strong> Cobrado como complemento adicional ao plano do Notion.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">8. Otter.ai (Pago / Freemium)</h5>
+<p><strong>Recursos:</strong> Grava áudio, identifica participantes e gera atas automáticas no Zoom/Meet.</p>
+<p><strong>Vantagens:</strong> Economiza horas de anotações manuais em reuniões.</p>
