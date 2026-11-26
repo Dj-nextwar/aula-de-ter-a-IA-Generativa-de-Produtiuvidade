@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IA na Produtividade | Questionário</title>
+<link href="https://jsdelivr.net" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg border-bottom sticky-top bg-body-tertiary">
+<div class="container">
+<a class="navbar-brand fw-bold" href="index.html">⚡ IA Produtividade</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="menuNav">
+<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<li class="nav-item"><a class="nav-link" href="index.html">Introdução</a></li>
+<li class="nav-item"><a class="nav-link" href="ferramentas.html">Ferramentas</a></li>
+<li class="nav-item"><a class="nav-link" href="praticas.html">Boas Práticas</a></li>
+<li class="nav-item"><a class="nav-link active" href="questionario.html">Questionário</a></li>
+</ul>
+<button id="btnTema" class="btn btn-outline-primary btn-sm">🌙 Tema Escuro</button>
+</div>
+</div>
+</nav>
+</header>
+ 
+  <main class="container my-5">
+<div class="d-flex justify-content-between align-items-center flex-wrap mb-4">
+<div>
+<h1 class="fw-bold mb-1">Questionário de Conhecimentos</h1>
+<p class="text-muted mb-0">Responda todas as 10 questões para visualizar seu desempenho.</p>
+</div>
+<div id="ultimoResultadoBox" class="alert alert-info py-2 px-3 mb-0 d-none"></div>
+</div>
+ 
+    <form id="formQuiz" novalidate>
+<div id="containerQuestoes"></div>
+ 
+      <div id="alertaValidacao" class="alert alert-warning d-none" role="alert">
+        ⚠️ Por favor, responda <strong>todas as 10 questões</strong> antes de finalizar o questionário.
+</div>
+ 
+      <div class="d-flex gap-2 mt-4">
+<button type="submit" class="btn btn-primary btn-lg">Finalizar Questionário</button>
+<button type="button" id="btnLimpar" class="btn btn-outline-secondary">Limpar Respostas</button>
+</div>
+</form>
+ 
+    <section id="resultadoFinal" class="card mt-5 d-none border-primary">
+<div class="card-header bg-primary text-white fw-bold">Resultado da Avaliação</div>
+<div class="card-body text-center py-4">
+<h2 class="display-4 fw-bold" id="textoAcertos">0 / 10</h2>
+<p class="lead" id="textoPorcentagem">Aproveitamento: 0%</p>
+<div id="badgeDesempenho" class="fs-4 fw-bold p-3 rounded mt-3"></div>
+</div>
+</section>
+</main>
+ 
+  <footer class="border-top py-4 text-center text-muted">
+<div class="container">
+<p class="mb-0">Projeto Acadêmico – Desenvolvimento Web | Tema: IA Generativa para Produtividade</p>
+</div>
+</footer>
+ 
+  <script src="https://jsdelivr.net"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
